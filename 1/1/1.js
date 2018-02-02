@@ -1,4 +1,7 @@
 //1.js
+var fBLDB = function(b,d){
+ /*
+ 
 农民体协 毕彬彬 先胜 广东 文静
 2000年全国象棋个人锦标赛
  
@@ -60,3 +63,10 @@ B35. 中炮巡河炮对反宫马
 48. 车四平六 车４退３
 49. 兵七平六 
 　　(红胜)
+  */
+}
+var ta = bl$( "id_ta_bldb" );
+if( ta ){
+	ta.fBLDB = fBLDB;
+	ta.value = ta.fBLDB;
+}
